@@ -22,16 +22,16 @@ from sklearn.datasets import load_iris
 
 iris = load_iris()
 
-print iris.feature_names  # metadata: names of the features
-print iris.target_names  # metadata: names of the different types of flowers
+print (iris.feature_names)  # metadata: names of the features
+print (iris.target_names)  # metadata: names of the different types of flowers
 
 #Python 3.6.0 |Anaconda 4.3.1
 #print(iris.feature_names)
 #print(iris.target_names)
 
 # print iris.data  # features and examples themselves
-print iris.data[0]  # first flower
-print iris.target[0]  # contains the labels
+print (iris.data[0]) # first flower
+print(iris.target[0])  # contains the labels
 
 #Python 3.6.0 |Anaconda 4.3.1
 print(iris.data[0])
@@ -70,7 +70,7 @@ clf = tree.DecisionTreeClassifier()
 clf.fit(train_data, train_target)
 
 # what we expect
-print test_target
+print( test_target)
 
 #Python 3.6.0 |Anaconda 4.3.1
 #print(test_target)
