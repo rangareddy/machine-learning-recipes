@@ -76,7 +76,7 @@ print( test_target)
 #print(test_target)
 
 # what tree predicts
-print clf.predict(test_data)
+print( clf.predict(test_data))
 
 #Python 3.6.0 |Anaconda 4.3.1
 #print clf.predict(test_data)
