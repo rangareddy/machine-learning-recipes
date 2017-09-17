@@ -27,12 +27,12 @@ my_classifier.fit(X_train, y_train)
 
 # predict
 predictions = my_classifier.predict(X_test)
-print predictions
+print(predictions)
 
 # test
 from sklearn.metrics import accuracy_score
 
-print accuracy_score(y_test, predictions)
+print(accuracy_score(y_test, predictions))
 
 # Repeat using KNN
 # Classifier
@@ -43,7 +43,7 @@ my_classifier.fit(X_train, y_train)
 
 # predict
 predictions = my_classifier.predict(X_test)
-print predictions
+print(predictions)
 
 # test
 from sklearn.metrics import accuracy_score
