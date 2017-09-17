@@ -1,4 +1,4 @@
-__author__ = 'Nilay Shrivastava,nilayshrivastava1729@gmail.com'
+__author__ = ''
 
 import numpy
 
